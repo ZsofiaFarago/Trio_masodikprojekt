@@ -17,3 +17,9 @@ A készítendő projekt célja egy olyan, kis méretűként induló, később ko
 |Felület|F#0404|Kártevőirtás: Tájékoztató oldal|1.0|Tájékoztat a kártevők fajtáiról, irtásukról, a díjszabásról.|
 |Jogosultság|J#0301|Sportlap: Jogosultsági szintek|1.0|- Általános felhasználó: feliratkozhat edzésre, lejelentkezhet róla beállíthatja, milyen napokon ér rá, kiválaszthat edzőt, sportágat - Edző: a sportágakhoz létrehozhat időpontokat és hozzárendelheti magát, törölheti, módosíthatja ezeket|
 |Jogosultság|J#0401|Kártevőirtás: Jogosultsági szintek|1.0|- Általános felhasználó: megrendelhet házhoz jövő kártevőirtó szolgáltatást a megfelelő paramétereket beállítva. - Admin: feldolgozza a megrendeléseket, szerkeszti az oldalt, kezeli a felhasználókat.|
+
+## 10. Képernyőtervek
+![A főoldal képernyőterve](Dokumentacio_kepek/fooldal.png)
+Az egyes kategóriákban rövid leírással, képpel érhetőek el az aloldalakra vezető linkek:
+![Az egyik kategória képernyőterve](Dokumentacio_kepek/kategoria.png)
+![Az egyik aloldal képernyőterve](Dokumentacio_kepek/aloldal.png)
