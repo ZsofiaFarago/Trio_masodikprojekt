@@ -26,3 +26,6 @@ A mai világban az emberek sokszor nem tudják mit kezdjenek a szabad idejükben
 Az egyes kategóriákban rövid leírással, képpel érhetőek el az aloldalakra vezető linkek:
 ![Az egyik kategória képernyőterve](Dokumentacio_kepek/kategoria.png)
 ![Az egyik aloldal képernyőterve](Dokumentacio_kepek/aloldal.png)
+
+## 12. Fogalomszótár
+A reszponzív weboldal: A reszponzív weboldal (RWD) egy olyan megközelítéssel tervezett weboldal, amelynek a célja az, hogy optimális megjelenést biztosítson - könnyű olvashatóság, egyszerű navigáció a lehető legkevesebb átméretezéssel és görgetéssel - a legkülönfélébb eszközökön (az asztali számítógép monitorjától egészen a mobiltelefonokig). Progressive enhancement: A lényeg az, hogy a szöveges vagy képi tartalmi részekből minden látogató ugyanazt kapja, de mindenkinek úgy tálaljuk azt, ahogy azt a körülmények megengedik. Nevezhetnénk Content First szemléletnek is, mert lényegében arról van szó, hogy minden más weboldalelem a tartalomnak van alárendelve. Ez fontos, hiszen a weboldalak elsősorban információátadás céljából készülnek. A látványos részek háttérbe szorulnak, illetve csak akkor kerülnek képbe, ha az adott eszköz, illetve elérhető internetsebesség mellett a tartalom prezentálása zökkenőmentes.
