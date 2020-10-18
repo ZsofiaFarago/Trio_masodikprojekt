@@ -1,0 +1,5 @@
+# Követelményspecifikáció
+
+## 04. Jelenlegi üzleti folyamatok modellje
+Olyan portálok, melyek kategóriákba rendzeve biztosítanak hozzáférést szolgáltatást, információt vagy szórakoztató tartalmat biztosító tartalmakhoz, sokféle felépítéssel, sokféleképpen megvalósítva léteznek. A jelenlegi üzleti folyamatok modelljében olyan modellt mutatok be, mely bizonyos portálokra jellemző, de nem a projket keretei között készített portálra. Ebben a portál főoldaláról elérhető a regisztráció, illetve a bejelentkezés. Miután a felhasználó belépett, ez az egy regisztráció a portál összes szolgáltatásának és funkciójának a használatára jogosulttá tette, nem kell az aloldalak funkcióinak használatához külön regisztrálnia. Az adminok is alapértelmezetten mindenhez hozzáférnek, de testre is szabható mindegyiknek a jogosultsági köre. Nagy portál esetén nehéz behatárolni a jogosultságokat ebben az esetben.
+![Jelenlegi üzleti folyamatok modellje](Dokumentacio_kepek/jelenlegi_modell.png)
