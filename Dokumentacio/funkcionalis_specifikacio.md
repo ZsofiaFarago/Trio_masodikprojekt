@@ -35,5 +35,12 @@ Az egyes kategóriákban rövid leírással, képpel érhetőek el az aloldalakr
 ![Az egyik kategória képernyőterve](Dokumentacio_kepek/kategoria.png)
 ![Az egyik aloldal képernyőterve](Dokumentacio_kepek/aloldal.png)
 
+## 11. Forgatokonyvek
+A portal latogataskor a kezdooldalon megjelennek a portalon talalhato osszes aloldal ahova kattintassal tovabb lehet menni erdekletseg alapjan.
+Az alportal nevere kattintva atiranyitodunk a kivalasztott feluletre ahol bongeszhetunk, olvshatunk az altalunk kivalasztott temakorben.
+Nem tetszes vagy masik tema valasztasa eseten egyszeruen visszamehetunk a fo oldalra egy kattinttassal.
+Az aloldalakon olvashatunk abban a temaban amit valasztottunk. 
+Mivel minden oldal mas ezert az oldaltol fugg, hogy hany funkcio talalhato rajta es pontosan mit is lehet rajtuk csinalni.
+
 ## 12. Fogalomszótár
 A reszponzív weboldal: A reszponzív weboldal (RWD) egy olyan megközelítéssel tervezett weboldal, amelynek a célja az, hogy optimális megjelenést biztosítson - könnyű olvashatóság, egyszerű navigáció a lehető legkevesebb átméretezéssel és görgetéssel - a legkülönfélébb eszközökön (az asztali számítógép monitorjától egészen a mobiltelefonokig). Progressive enhancement: A lényeg az, hogy a szöveges vagy képi tartalmi részekből minden látogató ugyanazt kapja, de mindenkinek úgy tálaljuk azt, ahogy azt a körülmények megengedik. Nevezhetnénk Content First szemléletnek is, mert lényegében arról van szó, hogy minden más weboldalelem a tartalomnak van alárendelve. Ez fontos, hiszen a weboldalak elsősorban információátadás céljából készülnek. A látványos részek háttérbe szorulnak, illetve csak akkor kerülnek képbe, ha az adott eszköz, illetve elérhető internetsebesség mellett a tartalom prezentálása zökkenőmentes.
