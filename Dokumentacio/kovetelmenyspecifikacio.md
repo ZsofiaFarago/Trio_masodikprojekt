@@ -8,6 +8,13 @@ Olyan portálok, melyek kategóriákba rendzeve biztosítanak hozzáférést szo
 A projekt célja létrehozni egy olyan információs portált, mely a legáltalánosabb kategóriákba gyűjtve nyújt hozzáférést bármilyen témájú tartalomhoz. A fő témakörök: Szolgáltatások; Információ, tájékoztatás; Szórakozás, szabadidő. Ezeken belül az aloldalak témája és megjelenése bármilyen változtatos lehet. Az általunk tervezett portál modellje a jelenleginél bemutatott modelltől eltérő lesz. Itt minden kategóriában, azokon belül is minden aloldalon külön kell regisztrálniuk és bejelentkezniük a felhasználóknak, és az adott regisztrációval csak az adott aloldal funkcióit vehetik igénybe, már ha egyáltalán szükséges regisztrálni. Az ábrán nem látszik egyértelműen, de nem kategóriánként kell regisztrálni, hanem minden kategóriához tartozó minden egyes weboldalhoz, melynek funkcióit használni szeretné a látogató, külön kell ezt megtenni, ha egyáltalán biztosít az adott aloldal ilyen lehetőséget. Minden aloldalhoz külön adminok is tartoznak, így azok jogosultsága egyértelműen a hozzá tartozó rész felhasználóinak, tartalmának és funkcióinak kezelésére terjed ki.
 ![Jelenlegi üzleti folyamatok modellje](Dokumentacio_kepek/igenyelt_modell.png)
 
+## 6. Kovetelmenylista
+Jogosultsag - Bejelentkezesi felulet - Csak az admin rendelkezik bejelentkezesi lehetoseggel, hogy szerkeszteni tudja az oldalakat
+Jogosultsag - Jogosultsagi szintek - Admin: A rendszer egeszehez hozzafer, barmikor modosithat informaciokat az letezo oldalakon, vagy akar teljesen uj oldalt is hozza adhat.
+								   - Felhasznalo/Vendegk: Bejelentkezes nelkul bongeszhet az oldalon, csak olvasasi jogosultsaggal rendelkezik semmi massal.	
+Felulet - Dizajn - Az aloldalak lehetoleg reszponziv felulettel rendelkezzenek 
+Jogosultsag - Admin felulet - Csak az admin fiokkal rendelkezo szemelyek ferhetnek hozza
+
 ## 8. Fogalomszotar 
 Portal - Gyujto felulet, tobb oldal szerepel rajta
 Oldal - Ahol az informaciok szerepelnek egy-egy bizonyos temaval kapcsolatban
