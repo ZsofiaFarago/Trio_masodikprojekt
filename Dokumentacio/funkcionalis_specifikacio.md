@@ -32,6 +32,13 @@ Két felhasználói szerepkör atrtozik az oldalhoz: user és admin. A user a po
 ## 07. Jelenlegi üzleti folyamatok modellje
 A mai világban az emberek sokszor nem tudják mit kezdjenek a szabad idejükben, ugyanis a mindennapi élet a sok munka, iskolai tevékenységek elviszik sokszor az ember életkedvét.Tegyük fel végre otthon vagy de nem tudod mit kezdj magaddal.Unatkozol és próbálnál valami hasznosat csinálni de fogalmad sincs róla mi lenne az a hasznos.Hiába ülnél le játszani mert nincs kedved hozzá esetleg nincs kivel, leülnél olvasni egy könyvet de hamar megunod ,elkezdesz nézni egy filmet de hamar bealszol rajta. Van olyan hogy csak ülsz a székedben és bámulod a plafont mert nem tudod mit kéne csinálnod és arra gondolsz hogy " bár csak lenne egy olyan oldal ahol szinte bármit bármikor csinálhatok". Erre a problémára nyújtana megoldást a Trio portál ahol sok féle dolgot csinálhatsz amikor csak akarsz.
 
+## 8 Igenyelt uzleti folyamatok modellje
+A portalunk celja, hogy az emberek atlagos, unalmas mar mar roboti eletukbol kiragadva, uj dolgokat ismerhessenek meg vagy, mar az ismert temaban melyebben el tudjon melyulni.
+Mivel a portal tobb temaval foglalkozik amikre kulon kulon oldal epul, igy alaposabban el tudunk merulni egy erdekelt temaban ezzel kimenekulve a szurke hetkoznapokbol.
+Oldalunk hasznalataval am azonban nem csak kulonbozo dolgokban tudunk elmelyulni vagy megismerni oket, hanem akar helybeli vagy kisebb kornyekbeli cigeket is megismerhetunk amiket sose art ismerni ha barmi olyan problemank lenne amivel ok foglalkoznak, es mivel kozelben vannak akar "ugraszthatoak" is egy egy munkara.
+Az aloldalaok kozott szabadon ugralhat a felhasznalo eppen mi erdekli vagy milyen szolgaltatast keres.
+Esetleg szolgaltasoknal arak osszehasonlitasa miatt amennyiben azt a szolgaltato feltuntetni.
+
 ## 10. Képernyőtervek
 ![A főoldal képernyőterve](Dokumentacio_kepek/fooldal.png)
 Az egyes kategóriákban rövid leírással, képpel érhetőek el az aloldalakra vezető linkek:
