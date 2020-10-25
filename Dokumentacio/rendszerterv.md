@@ -1,5 +1,27 @@
 # Rendszerterv
 
+## 02. Projektterv
+**Rendelkezésre álló szoftvererőforrások:**
+- Windows 10 operációs rendszer
+- WAMP szerver
+- Sublime Text 3 IDE
+- MySQL localhost szerver  
+**Rendelkezésre álló hardvererőforrások:**
+- Fejenként legalább egy IBM PC 8 vagy 16 GB RAM-mal, 1 TB SSD vagy HDD tárhellyel, i5-ös vagy i7-es processzorral  
+**Rendelkezésre álló idő, ütemterv:**
+- Funkcionális és követelményspecifikáció: 1. hét
+- Rendszerterv: 2. hét
+- Alapprojekt kialakítása és szükséges anyagok (szövegek, képek) összegyűjtése, adatbázisok létrehozása: 3. hét
+- Főbb funkciók és autentikáció kidolgozása: 4. hét
+- Stílus, megfelelő struktúra kialakítása: 5. hét
+- Tesztelés: 6. hét  
+**Projekt szerepkörök, felelősségek:**
+- Az információs oldalak kialakításáért felel: Pelle Marcell
+- A sporttal kapcsolatos szolgáltatások és információk fejlesztése: Dohányos Patrik
+- A szabadidős tartalmak és funkciók fejlesztése: Perge Zsolt
+- A közérdekű szolgáltatások kategóriájába tartozó aloldalak fejlesztése: Faragó Zsófia
+- A főoldal kialakítása, menühierarchia, navigáció: Faragó Zsófia
+
 ## 12. Karbantartási terv
 **Jogkörökkel, adminisztrációval, fejlesztéssel kapcsolatos feladatok:**
 - A portál jelenleg 4 ember fejlesztésével indul, és ezek az emberek tartják az aloldalakat karban. Ez már nem lesz fenntartható, ha a portál tartalma bővül, szükség lesz adminisztrátorokat felvenni, akik a meglévő oldalak tartalmáért és felhasználóiért felelősek. Először csak kategóriánként, később szűkebb alkategóriánként akár többet is.
