@@ -22,6 +22,22 @@
 - A közérdekű szolgáltatások kategóriájába tartozó aloldalak fejlesztése: Faragó Zsófia
 - A főoldal kialakítása, menühierarchia, navigáció: Faragó Zsófia
 
+## 08. Adatbázisterv
+A portál kezdeti aloldalai közül elsőként csak a kártevőirtáshoz mint szolgáltatáshoz készül adatbázis, ennek a tervét mutatja a mellékelt ábra.  
+![Adatbázisterv a kártevőirtáshoz](Dokumentacio_kepek/database_model.png)  
+**A customer tábla:**  
+Tartalmazza a beregisztrált megrendelők adatait: vezeték- és keresztnevét, címét (idegen kulccsal az address táblához kapcsolva), email címét, telefonszámát, titkosított jelszavát. A tábla azonosítója a vevőkód.
+**Az address és a city tábla:**  
+Az adressben találhatóak a címadatok, úgy, mint az utcanév, házszám, és a város adataihoz tartozó city_id idegen kulcs. Opcionálisan megadható emelet, ajtó is. A city táblában a városok neve és irányítószáma található. Az ismétlődés elkerülése céljából ezeket az adatokat külön táblában tároljuk, és az addressben idegen kulccsal hivatkozunk a rekordjaira. Az address és a city táblák között egy a sokhoz kapcsolat van: egy városban sok cím található, de egy címhez csak egy város köthető.
+**A pest (kártevő tábla):**  
+A kártevők nevét, típusát, rövid leírását, veszélyességi szintjét tartalmazza, illetve az alapdíjat, amennyiért az irtása vállalható.
+**A method és a pest_method tábla:**  
+A kártevőirtásra használt módszerek nevét, rövid leírását tartalmazza ez a tábla. A pest_method kapcsolótábla mondja meg, hogy melyik kártevőhöz melyik módszer a megfelelő. Azért kell a kapcsolótábla, mert egyféle kártevőt több módszerrel is lehet irtani, egy módszer pedig többféle kártevőre is jó lehet.
+**A gear és a method_gear tábla:**  
+A gear táblában a kártevőirtáshoz használt felszerelések nevét és költségét tároljuk, a method táblához a method_gear kapcsolótáblával kapcsolhatóak, mert egyféle felszerelést több módszerhez is fel lehet használni, és egy eljáráshoz több felszerelés is szükséges lehet.
+**A cust_order és a pest_cust_order táblák:**  
+A cust_orderben megrendelések találhatók, melyeket a vevők adtak le, a cust_id idegen kulcs tárolja a vevő id-jét, az order_date a megrendelés dátumát, az address_id pedig a helyszín címét adja meg. A rendelés kódja az azonosító. Azért szükséges a címet itt is feltüntetni, mert a kártevőirtás helye nem biztos, hogy megegyezik a vevő címével.
+
 ## 12. Karbantartási terv
 **Jogkörökkel, adminisztrációval, fejlesztéssel kapcsolatos feladatok:**
 - A portál jelenleg 4 ember fejlesztésével indul, és ezek az emberek tartják az aloldalakat karban. Ez már nem lesz fenntartható, ha a portál tartalma bővül, szükség lesz adminisztrátorokat felvenni, akik a meglévő oldalak tartalmáért és felhasználóiért felelősek. Először csak kategóriánként, később szűkebb alkategóriánként akár többet is.
