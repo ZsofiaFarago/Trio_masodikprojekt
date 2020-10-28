@@ -1,4 +1,8 @@
 # Követelményspecifikáció
+## 01.Jelenlegi Rendszerr leírása
+A trio csoport egy olyan szabadidős weboldalt tervez amivel az emberek a szabadidejükben tudnak foglalkozni. A csapat viszonylag friss de az elhatározásuk meg van a projekt elkészítéséhez A Jelenlegi helyzetre hivatkozva 4-en a weboldal 1-1 részét építenénk meg amellyel a munka felosztására a kevesebb teher és több szabad idő és kevesebb stressz okozása a célunk.
+
+
 
 ## 04. Jelenlegi üzleti folyamatok modellje
 Olyan portálok, melyek kategóriákba rendzeve biztosítanak hozzáférést szolgáltatást, információt vagy szórakoztató tartalmat biztosító tartalmakhoz, sokféle felépítéssel, sokféleképpen megvalósítva léteznek. A jelenlegi üzleti folyamatok modelljében olyan modellt mutatok be, mely bizonyos portálokra jellemző, de nem a projket keretei között készített portálra. Ebben a portál főoldaláról elérhető a regisztráció, illetve a bejelentkezés. Miután a felhasználó belépett, ez az egy regisztráció a portál összes szolgáltatásának és funkciójának a használatára jogosulttá tette, nem kell az aloldalak funkcióinak használatához külön regisztrálnia. Az adminok is alapértelmezetten mindenhez hozzáférnek, de testre is szabható mindegyiknek a jogosultsági köre. Nagy portál esetén nehéz behatárolni a jogosultságokat ebben az esetben.
