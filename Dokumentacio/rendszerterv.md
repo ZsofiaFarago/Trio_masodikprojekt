@@ -22,6 +22,20 @@
 - A közérdekű szolgáltatások kategóriájába tartozó aloldalak fejlesztése: Faragó Zsófia
 - A főoldal kialakítása, menühierarchia, navigáció: Faragó Zsófia
 
+## 5 Funkcionalis terv
+
+Renszerszereplok: Adminok, Latogatok
+Mivel az oldal egy gyujtoi portal, igy nincs szukseg tobb felhasznalora, csak az aminok akik publikalni tudnak es egyszeru olvasok akiknek nem kell regisztralni.
+
+Rendszerhasznalati eset
+Admin: Teljes hozzaferesz az egesz rendszerhez, ezaltal barmilyen aloldalt, informaciot megjelenithetnek vagy epp elrejthetnek.
+Latogato: A portal osszes megjelentitett aloldalat elerik, ezaltal szabadon bongeszhetnek
+
+Menuhierarchia:
+Bejelentkezes: Csak az adminok reszere
+Fooldal: Az osszes aloldal kulon kulon megjelenitve. 
+		 Az aloldalak felosztasa mind egyedi csak az adott oldalhoz kapcsolodik. (Informacio, Elerhetosegek stb.)
+
 ## 08. Adatbázisterv
 A portál kezdeti aloldalai közül elsőként csak a kártevőirtáshoz mint szolgáltatáshoz készül adatbázis, ennek a tervét mutatja a mellékelt ábra.  
 ![Adatbázisterv a kártevőirtáshoz](Dokumentacio_kepek/database_model.png)  
