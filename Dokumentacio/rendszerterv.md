@@ -84,6 +84,10 @@ A gear táblában a kártevőirtáshoz használt felszerelések nevét és költ
 **A cust_order és a pest_cust_order táblák:**  
 A cust_orderben megrendelések találhatók, melyeket a vevők adtak le, a cust_id idegen kulcs tárolja a vevő id-jét, az order_date a megrendelés dátumát, az address_id pedig a helyszín címét adja meg. A rendelés kódja az azonosító. Azért szükséges a címet itt is feltüntetni, mert a kártevőirtás helye nem biztos, hogy megegyezik a vevő címével.
 
+## 09. Implementációs terv
+
+Web: A webes felület HTML, PHP, CSS valamis Javascript nyelven készül. Minél átláthatóbban, elkülönítettebben fogunk dolgozni, a projekt átláthatósága miatt. Adatbázishoz SQL rendszert használunk az adatbázisterv pont szerint.
+
 ## 12. Karbantartási terv
 **Jogkörökkel, adminisztrációval, fejlesztéssel kapcsolatos feladatok:**
 - A portál jelenleg 4 ember fejlesztésével indul, és ezek az emberek tartják az aloldalakat karban. Ez már nem lesz fenntartható, ha a portál tartalma bővül, szükség lesz adminisztrátorokat felvenni, akik a meglévő oldalak tartalmáért és felhasználóiért felelősek. Először csak kategóriánként, később szűkebb alkategóriánként akár többet is.
