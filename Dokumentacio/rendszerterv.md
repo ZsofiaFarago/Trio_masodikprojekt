@@ -36,6 +36,18 @@ Bejelentkezes: Csak az adminok reszere
 Fooldal: Az osszes aloldal kulon kulon megjelenitve. 
 		 Az aloldalak felosztasa mind egyedi csak az adott oldalhoz kapcsolodik. (Informacio, Elerhetosegek stb.)
 
+## 6 Fizikai kornyezet
+A portal csakis web platformra keszul
+A portal kezi kodolassal irodik
+A weboldal eleresehez csak egy atlagos bongeszora van szukseg
+	Ezaltal barhonnan elerheto, operacios rendszertol es bongeszotol fuggetlenul
+Az oldal fejlesztese HTML/CSS, JavaScript es PHP segitsegevel tortenik.
+
+Fejlesztoi eszkozok:
+	Szoveg -es forraskodszerkesztok: Visual Studio Code, Notepad++, Sublime text stb, kedv szerint barmelyik
+	Weboldal: HTML + CSS + JavaScript + PHP
+	Adatbazis: MySQL		 
+
 ## 08. Adatbázisterv
 A portál kezdeti aloldalai közül elsőként csak a kártevőirtáshoz mint szolgáltatáshoz készül adatbázis, ennek a tervét mutatja a mellékelt ábra.  
 ![Adatbázisterv a kártevőirtáshoz](Dokumentacio_kepek/database_model.png)  
