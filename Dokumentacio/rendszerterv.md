@@ -22,6 +22,21 @@
 - A közérdekű szolgáltatások kategóriájába tartozó aloldalak fejlesztése: Faragó Zsófia
 - A főoldal kialakítása, menühierarchia, navigáció: Faragó Zsófia
 
+## 3 Uzleti folyamatok modellje
+
+A celunk egy olyan portal letrehozasa melynek segitsegevel az emberek valtoztatni tudnak az unalmas mindennapjaikon.
+
+Uzleti szereplok:
+
+-Szolgaltatast nyujto cegek, akik megjelennek az oldalon
+-Latogatok
+-Adminok
+
+Uzleti folyamatok:
+- A latogatok elerhetik az osszes aloldalt, minden megjelenitett informaciot, regisztralas nelkul bongeszhetnek es olvashatnak
+- Az adminok publikaljak es szerkesztik az aloldalakat. Barmilyen dolog miatt hozza fernek akar informacio hozzaadasa vagy torlese
+
+
 ## 5 Funkcionalis terv
 
 Renszerszereplok: Adminok, Latogatok
