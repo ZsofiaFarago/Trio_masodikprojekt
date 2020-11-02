@@ -23,6 +23,9 @@ Jogosultsag - Jogosultsagi szintek - Admin: A rendszer egeszehez hozzafer, barmi
 Felulet - Dizajn - Az aloldalak lehetoleg reszponziv felulettel rendelkezzenek 
 Jogosultsag - Admin felulet - Csak az admin fiokkal rendelkezo szemelyek ferhetnek hozza
 
+## 07. A rendszerre vonatkozó pályázat, törvények, rendeletek, szabványok és ajánlások felsorolása 
+A weboldalt a jelenlegi helyzet szerint, minden tag a saját projektrészét köteles elkészíteni, figyelembe véve a projektben dolgozó társai munkáját, a követelménylista és az egyéb pontok szerint hiánytalanul, hogy az igénylő tökéletes terméket kaphasson.
+
 ## 8. Fogalomszotar 
 Portal - Gyujto felulet, tobb oldal szerepel rajta
 Oldal - Ahol az informaciok szerepelnek egy-egy bizonyos temaval kapcsolatban
