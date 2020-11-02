@@ -48,6 +48,9 @@ Oldalunk hasznalataval am azonban nem csak kulonbozo dolgokban tudunk elmelyulni
 Az aloldalaok kozott szabadon ugralhat a felhasznalo eppen mi erdekli vagy milyen szolgaltatast keres.
 Esetleg szolgaltasoknal arak osszehasonlitasa miatt amennyiben azt a szolgaltato feltuntetni.
 
+## 9 A rendszerre vonatkozó külső megszorítások
+A projekt weboldala a jogszabályok szerint fog elkészülni, szerzői joga a készítőket illeti, állami pályázatokra nem jogosult, a weboldal a természetes szabvány szerint íródik, HTML, PHP kódban, fotók számára PNG-t használ, stíluslapja CSS.
+
 ## 10. Képernyőtervek
 ![A főoldal képernyőterve](Dokumentacio_kepek/fooldal.png)
 Az egyes kategóriákban rövid leírással, képpel érhetőek el az aloldalakra vezető linkek:
