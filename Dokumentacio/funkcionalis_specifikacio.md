@@ -1,5 +1,11 @@
 # Funkcionális specifikáció
 
+## 1. Áttekintés
+Egy több aloldalat működtető központi weboldal szolgáltatásról szól a projektünk. Célunk, hogy több érdeklődési körű felhasználó is megtalálja a saját foglalkozásának megfelelő szolgáltatást.
+Több aloldal fog szerepelni a weboldalunkon, melyek például szabadidős aloldal, sportlap, kártevőirtással foglalkozó alvállalkozás oldala. Lehetőség lesz mindet megtekinteni egy portálon keresztül, és értesülni a például a sportlap híreiről, kártevőírtás igényléséről.
+A felhasználók a menüben fognak tudni váltani a szolgáltatások között. A weboldal tartalmazni fog képeket, elérhetőségeket, szükséges információkat. Igény esetén nyomtatható formátumban is. A felület biztosítani fogja különböző elérhetőségeit az aloldalak szerkesztőinek, szolgáltatóinak.
+Számítógépről és telefonról is optimalizált felület lesz, mindenhonnan látogatható lesz a webhely.
+
 ## 2. Jelenlegi helyzet
 A COVID virusra valo tekintettel az emberek tobbnyire otthon toltik idejuket. Unalmas es repetativ eletmodot folytatva.
 Aminek a valtoztatasan szertne segiteni ez a portal.
