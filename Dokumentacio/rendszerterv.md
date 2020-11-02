@@ -66,7 +66,10 @@ Az oldal fejlesztese HTML/CSS, JavaScript es PHP segitsegevel tortenik.
 Fejlesztoi eszkozok:
 	Szoveg -es forraskodszerkesztok: Visual Studio Code, Notepad++, Sublime text stb, kedv szerint barmelyik
 	Weboldal: HTML + CSS + JavaScript + PHP
-	Adatbazis: MySQL		 
+	Adatbazis: MySQL	
+
+## 07. Architekturális terv
+A rendszerhez szükség van egy adatbázis szerverre, ebben az esetben MySql-t használunk. A kliens oldali programokat egy php alapú REST api szolgálja ki, ez csatlakozik az adatbázis szerverhez. A kliensekkel JSON objektumokkal kommunikál.	
 
 ## 08. Adatbázisterv
 A portál kezdeti aloldalai közül elsőként csak a kártevőirtáshoz mint szolgáltatáshoz készül adatbázis, ennek a tervét mutatja a mellékelt ábra.  
