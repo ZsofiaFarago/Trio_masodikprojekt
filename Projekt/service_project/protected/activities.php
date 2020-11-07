@@ -3,13 +3,13 @@
 			<div class="info">
 				<img class="index" src="<?=PUBLIC_DIR.'Images/freetime.jpeg'?>" />
 				<h2>Szabadidős portál</h2>
-				<p>Leírás...</p>
+				<p>A szabadidőt aktívan tölti el az, aki a választott tevékenységnek tevőleges résztvevője, befolyásolója. Ez mindig szellemi, gyakran testi erőfeszítéssel, a képességek, készségek mozgósításával jár. A szabadidő aktív felhasználása a személyiségfejlődésben is fontos szerepet játszik. Az aktív szabadidős tevékenységek közé tartozhatnak a testmozgás, az alkotás, a művelődés és a társas szórakozás különböző formái. A szabadidő eltöltése passzív, ha a választott tevékenységnek a kikapcsolódáson kívül nincsen különösebb elérendő célja vagy végeredménye és nem igényel nagyobb testi, szellemi erőfeszítést. A szabadidő ilyen eltöltése elsősorban az otthoni pihenésre és az üdülésre jellemző.</p>
 				<a class="link" href="index.php?S=freetime">Tovább >></a>
 			</div>
 			<div class="info">
 				<img class="index" src="<?=PUBLIC_DIR.'Images/training.jpeg'?>" />
 				<h2>Edzések</h2>
-				<p>Leírás...</p>
+				<p>Januárban jelentősen megnő az edzőtermek forgalma. Az újrakezdők mellett az állandó vendégek is magasabb fokozatra kapcsolnak ilyenkor. Sokszor úgy tűnik, mintha néhányan haza se mennének, mindig szembetalálkozol velük, amikor belépsz a terembe. De mi van azokkal, akik a munka, család, vagy a tanulás mellett örülnek, ha heti egyszer el tudnak jutni az edzőterembe? Van értelme egyáltalán belekezdeni? Mire elég heti egy edzés?</p>
 				<a class="link" href="index.php?S=training">Tovább >></a>
 			</div>
 		</div>

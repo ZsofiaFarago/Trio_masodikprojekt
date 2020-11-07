@@ -3,13 +3,13 @@
 			<div class="info">
 				<img class="index" src="<?=PUBLIC_DIR.'Images/fortune_telling.png'?>" />
 				<h2>Jövendőmondás</h2>
-				<p>Leírás...</p>
+				<p>A jóslás értelmezése kétféleképpen közelíthető meg: az egyik magyarázat szerint a jóslás egy problémára adott megoldási javaslatot jelent, melyet a jósok, vagy javasok dolgoznak ki. Egy másik értelmezés szerint a jóslás szó megegyezik a jövő kiderítésére irányuló tevékenységgel, a jövendöléssel. Bármelyik értelmezést is részesíti előnyben a kedves látogató, mi minőségi szolgáltatást nyújtunk kedvező áron! Ne hagyja ki kedvező ajánlatunk at, és nem becsülje alá a mesterges intelligencia spirituális képességeit!</p>
 				<a class="link" href="index.php?S=fortune_teller">Tovább >></a>
 			</div>
 			<div class="info">
 				<img class="index" src="<?=PUBLIC_DIR.'Images/pestcontrol.png'?>" />
 				<h2>Kártevőirtás</h2>
-				<p>Leírás...</p>
+				<p>Vállalkozásunkat több mint 10 éves szakmai tapasztalat alapján hoztuk létre, hogy kitűnjünk elhivatottságunkkal és minőségi munkavégzésünkkel. Célunk az, hogy mind személyünket, mind munkánkat elismerjék és ehhez eddig is mindent megtettünk, ahogyan ezután is tenni fogjuk! Hírünk szájról szájra is terjed, és ez nem véletlen, ennél jobb reklám nem is kell. Professzionális irtószereink, emberbarát kommunikációnk, ügyfélorientáltságunk és versenyképes áraink sikerünk kulcsai, melyeken a jövőben sem kívánunk változtatni!</p>
 				<a class="link" href="index.php?S=pest_control">Tovább >></a>
 			</div>
 		</div>
