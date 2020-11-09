@@ -8,6 +8,7 @@
 		case 'activities': require_once PROTECTED_DIR.'activities.php'; break;
 		case 'fortune_teller': require_once PROTECTED_DIR.'services/fortune_teller/start.php'; break;
 		case 'pest_control': require_once PROTECTED_DIR.'services/pest_control/start.php'; break;
+		case 'freetime': require_once PROTECTED_DIR.'services/freetime/snake.html'; break;
 		default: require_once PROTECTED_DIR.'error/404.php'; break;
 	}
 ?>
