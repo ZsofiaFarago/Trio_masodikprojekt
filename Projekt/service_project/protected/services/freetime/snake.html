@@ -49,4 +49,20 @@ function game() {
 	ctx.fillStyle="red";
 	ctx.fillRect(ax*gs,ay*gs,gs-2,gs-2);
 }
+function keyPush(evt) {
+	switch(evt.keyCode) {
+		case 37:
+			xv=-1;yv=0;
+			break;
+		case 38:
+			xv=0;yv=-1;
+			break;
+		case 39:
+			xv=1;yv=0;
+			break;
+		case 40:
+			xv=0;yv=1;
+			break;
+	}
+}
 </script>
