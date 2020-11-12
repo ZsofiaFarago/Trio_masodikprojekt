@@ -49,7 +49,7 @@ CREATE TABLE customer (
 
 CREATE TABLE cust_order (
   order_code INT NOT NULL AUTO_INCREMENT,
-  cust_id VARCHAR(50) NOT NULL,
+  cust_id INT NOT NULL,
   pest_id INT NOT NULL,
   order_date DATETIME NOT NULL DEFAULT NOW(),
   address_id INT NOT NULL,
