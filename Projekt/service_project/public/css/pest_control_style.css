@@ -1,11 +1,9 @@
 * {
 	padding: 0px;
 	margin: 0px;
-	color: yellow;
 }
 
 html,body {
-	height:100%;
 	background-color: yellow;
 	background-image: url("../Images/pest_control_background.jpeg");
 }
@@ -29,6 +27,8 @@ html,body {
 	float: left;
 	margin-right: 10px;
 }
+
+h1, h2, p { color: yellow; }
 
 /* Nav */
 #nav {
@@ -70,6 +70,39 @@ html,body {
 	background-color: black;
 }
 
+/* Táblázat */
+.prices {
+	margin-top: 20px;
+	margin-bottom: 40px;
+	margin-left: auto;
+	margin-right: auto;
+    border-collapse: collapse;
+    font-family: sans-serif;
+    color: yellow;
+    min-width: 300px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.prices thead tr {
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+    text-align: left;
+}
+
+.prices th, .prices td {
+    padding: 12px 15px;
+}
+
+.prices tbody tr, .prices tfoot tr {
+    border-bottom: 1px solid yellow;
+}
+
+.prices tfoot tr {
+    border-top: 5px double yellow;
+    font-weight: bold;
+}
+
 /* Footer */
 #footer {
 	background-color: black;
@@ -79,9 +112,8 @@ html,body {
 	bottom: 0px;
 	left: 0px;
 	right: 0px;
-	position: fixed;
 	text-align: center;
-	border-top: 5px;
+	border-top: 10px;
 	border-top-color: yellow;
 	border-top-style: groove;
 }
