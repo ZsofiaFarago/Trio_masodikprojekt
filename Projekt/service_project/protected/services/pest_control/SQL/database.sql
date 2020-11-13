@@ -5,6 +5,7 @@ CREATE TABLE pest (
   danger_level INT NOT NULL,
   description VARCHAR(500) NOT NULL,
   base_price INT NOT NULL,
+  image VARCHAR(255) NOT NULL,
   CONSTRAINT pk_pest PRIMARY KEY (id));
 
 CREATE TABLE gear (
@@ -71,16 +72,14 @@ INSERT INTO customer(first_name, last_name, email, phone, password, address_id) 
 INSERT INTO customer(first_name, last_name, email, phone, password, address_id) values("Lajos", "Nagy", "nagy.lajos@gmail.com", "06704791456", "password", 2);
 INSERT INTO customer(first_name, last_name, email, phone, password, address_id) values("Margit", "Kiss", "kiss.margit@gmail.com", "06707413586", "password", 4);
 
-INSERT INTO pest(name, type, danger_level, description, base_price) values("csótány", "ízeltlábúak", 4, "A kifejlett példányok elérhetik a 20-27 mm-es nagyságot, színezetük a vöröses sötétbarnától a feketéig terjed.", 5000);
-INSERT INTO pest(name, type, danger_level, description, base_price) values("hangya", "ízeltlábúak", 2, "A hangyák kis termetű, hártyás szárnyú rovarok, testhosszuk igen gyakran csak 1-2 mm.", 4000);
-INSERT INTO pest(name, type, danger_level, description, base_price) values("patkány", "rágcsálók", 6, "A házi patkány egyértelműen az esti és a reggeli szürkület idején a legtevékenyebb, bár a nap bármely órájában találhatunk éber példányokat.", 10000);
-INSERT INTO pest(name, type, danger_level, description, base_price) values("egér", "rágcsálók", 5, "A házi egér Északnyugat-Afrika, Spanyolország és Kelet-Ázsia sztyeppjeiről és félsivatagaiból származik. A lakóházak közvetlen közelében mindenütt megtalálható.", 8650);
-INSERT INTO pest(name, type, danger_level, description, base_price) values("poltergeist", "paranormális", 8, "A poltergeist ismeretlen erő, amely megmagyarázhatatlan zajokat vagy tüzeket okoz, tárgyakat mozgat anélkül, hogy láthatóvá válna. A jelenséget tudományosan rekurrens spontán pszichokinézisnek (RSPK) nevezik.", 25000);
+INSERT INTO pest(name, type, danger_level, description, base_price, image) values("csótány", "ízeltlábúak", 4, "A kifejlett példányok elérhetik a 20-27 mm-es nagyságot, színezetük a vöröses sötétbarnától a feketéig terjed.", 5000, "csotany.jpg");
+INSERT INTO pest(name, type, danger_level, description, base_price, image) values("hangya", "ízeltlábúak", 2, "A hangyák kis termetű, hártyás szárnyú rovarok, testhosszuk igen gyakran csak 1-2 mm.", 4000, "hangya.jpg");
+INSERT INTO pest(name, type, danger_level, description, base_price, image) values("patkány", "rágcsálók", 6, "A házi patkány egyértelműen az esti és a reggeli szürkület idején a legtevékenyebb, bár a nap bármely órájában találhatunk éber példányokat.", 10000, "patkany.jpg");
+INSERT INTO pest(name, type, danger_level, description, base_price, image) values("egér", "rágcsálók", 5, "A házi egér Északnyugat-Afrika, Spanyolország és Kelet-Ázsia sztyeppjeiről és félsivatagaiból származik. A lakóházak közvetlen közelében mindenütt megtalálható.", 8650, , "eger.jpg");
 
 INSERT INTO gear(name, cost) values("légycsapó", 500);
 INSERT INTO gear(name, cost) values("permetezőszer", 1200);
 INSERT INTO gear(name, cost) values("patkányméreg", 800);
-INSERT INTO gear(name, cost) values("szellemradar", 6500);
 INSERT INTO gear(name, cost) values("porszívó", 2500);
 
 INSERT INTO pest_gear(pest_id, gear_id) values(1, 1);
@@ -93,8 +92,6 @@ INSERT INTO pest_gear(pest_id, gear_id) values(3, 2);
 INSERT INTO pest_gear(pest_id, gear_id) values(3, 3);
 INSERT INTO pest_gear(pest_id, gear_id) values(4, 2);
 INSERT INTO pest_gear(pest_id, gear_id) values(4, 3);
-INSERT INTO pest_gear(pest_id, gear_id) values(5, 4);
 
 INSERT INTO cust_order(cust_id, pest_id, address_id) VALUES(1, 2, 1);
 INSERT INTO cust_order(cust_id, pest_id, address_id) VALUES(2, 4, 4);
-INSERT INTO cust_order(cust_id, pest_id, address_id) VALUES(3, 5, 3);
