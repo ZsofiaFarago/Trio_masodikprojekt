@@ -63,11 +63,25 @@ h1, h2, p { color: yellow; }
 }
 
 /* Tartalom */
+.main h1 {
+	padding-bottom: 15px;
+}
+
 .main {
 	margin: 0px 180px;
 	padding: 15px;
 	height: 100%;
 	background-color: black;
+}
+
+.info {
+	overflow: auto;
+	padding-bottom: 15px;
+}
+
+.index {
+	float: left;
+	padding-right: 15px;
 }
 
 /* Táblázat */
