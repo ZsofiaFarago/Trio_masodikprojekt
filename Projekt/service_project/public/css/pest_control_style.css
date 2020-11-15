@@ -117,6 +117,68 @@ h1, h2, p { color: yellow; }
     font-weight: bold;
 }
 
+/* Űrlap */
+
+.form {
+	background: yellow;
+	width: 470px;
+	margin: 0 auto;
+	padding-left: 50px;
+	padding-top: 20px;
+}
+
+.form p.contact {
+	font-size: 12px;
+	margin: 0px 0px 10px 0;
+	line-height: 14px;
+}
+
+.form label {
+	color: black;
+	font-weight:bold;
+	font-size: 12px;
+}
+
+.form input, textarea {
+	background-color: black;
+	color: yellow;
+	width: 400px;
+	border: 1px solid grey;
+	padding: 7px;
+	font-size: 14px;
+	-webkit-border-radius: 5px;
+	margin-bottom: 15px;
+	margin-top: -10px;
+}
+
+.form input:focus, textarea:focus {
+	background-color: rgba(255, 255, 255, 1);
+	border: 1px dashed red;
+	color: black;
+}
+
+.form input.buttom {
+	background: black;
+	display: inline-block;
+	padding: 5px 20px 6px;
+	width: 150px;
+	color: yellow;
+	text-decoration: none;
+	font-weight: bold;
+	line-height: 1;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 0 1px 3px black;
+	-webkit-box-shadow: 0 1px 3px black;
+	box-shadow: 0 1px 3px black;
+	text-shadow: 0 -1px 1px red;
+	border: 1px solid white;
+	position: relative;
+	cursor: pointer;
+	font-size: 14px;
+}
+
 /* Footer */
 #footer {
 	background-color: black;
