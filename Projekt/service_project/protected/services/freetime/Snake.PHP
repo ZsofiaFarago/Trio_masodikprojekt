@@ -36,4 +36,20 @@
     main();
     gen_food();
     document.addEventListener("keydown", change_direction);
+    function main() {
+
+if (has_game_ended()) return;
+
+changing_direction = false;
+setTimeout(function onTick() {
+clear_board();
+drawFood();
+move_snake();
+drawSnake();
+main();
+}, 100)
+
+}
+
+
     </script>
