@@ -5,7 +5,11 @@
   </head>
 
   <body>
-
+  <table id="pictab">
+  <tr>    
+        <th id="pic"><img src="pic.png"></th>     
+</tr>
+</table>
   <div id="minden"><br>
     <table>    
   <tr>
