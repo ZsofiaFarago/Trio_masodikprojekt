@@ -56,6 +56,16 @@ function clear_board() {
       snakeboard_ctx.fillRect(0, 0, snakeboard.width, snakeboard.height);
       snakeboard_ctx.strokeRect(0, 0, snakeboard.width, snakeboard.height);
     }
+    function drawSnake() {
+      snake.forEach(drawSnakePart)
+    }
+
+    function drawFood() {
+      snakeboard_ctx.fillStyle = 'red';
+      snakeboard_ctx.strokestyle = 'darkred';
+      snakeboard_ctx.fillRect(food_x, food_y, 10, 10);
+      snakeboard_ctx.strokeRect(food_x, food_y, 10, 10);
+    }
 
 
     </script>
