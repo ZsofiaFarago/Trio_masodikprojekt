@@ -50,6 +50,12 @@ main();
 }, 100)
 
 }
+function clear_board() {
+      snakeboard_ctx.fillStyle = board_background;
+      snakeboard_ctx.strokestyle = board_border;
+      snakeboard_ctx.fillRect(0, 0, snakeboard.width, snakeboard.height);
+      snakeboard_ctx.strokeRect(0, 0, snakeboard.width, snakeboard.height);
+    }
 
 
     </script>
