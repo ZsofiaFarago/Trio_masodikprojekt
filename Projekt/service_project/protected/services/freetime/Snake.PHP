@@ -6,9 +6,47 @@
 
   <body>
 
-    <div id="score">0</div>
-    <canvas id="snakeboard" width="400" height="400"></canvas>
-  </body>
+  <div id="minden"><br>
+    <table>    
+  <tr>
+    <th id="scorelist"><?php	
+	$dbconnect=mysqli_connect('localhost:3308','root','','snake');
+   $sql = "SELECT * FROM users Order BY score";
+   $result = mysqli_query($dbconnect,$sql);
+   $resultcheck=mysqli_num_rows($result);
+   if($resultcheck >0)
+   {
+	   while($row=mysqli_fetch_assoc($result))
+	   {     
+        echo  "<table id='ectab'><tr id='ectab'><th id='ectab'>User: ".$row['nev']."</th> <th id='ectab'> score: ".$row['score']."</th></tr></table><br>"; 
+	   }
+   }
+	?>	</th>
+    <th> <canvas id="snakeboard" width="400" height="400"></canvas></th> 
+    <th id="leírás">A Kígyózó kígyózás másnéven Snake játék egy mindenki által bizonyára ismert egyszerű de szórakoztató játék.
+     Szabályok: <br>
+     <ul>
+  <li>a kígyó irányításával vedd fel az almákat (a piros négyzeteket) és gyűjts össze minél több pontot.</li>
+  <li>Ha falnak ütközöl vége a játéknak,ugyanez vonatkozik arra ha megeszed a kígyó testének az egyik részét.</li>
+  
+</ul>
+  A pontjaid elmentésére lehetőséged van amit egy listával ki lehet majd listázni hogy
+       megnézd az elmentett pontok közül a tiéd hanyadik.</th>
+  </tr>
+ 
+  <tr id="bott">
+    <th></th>
+    <th>
+ <form action="action.php" method="post">
+Name: <input type="text" name="nev"><br>
+Score: <input type="number" name="score"><br>
+<input type="submit">
+</form></th> 
+    <th><div id="score">0</div></th>
+  </tr>
+  
+  </table>
+  </div>
   </html>
   <script>
     const board_border = 'black';
