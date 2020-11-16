@@ -10,3 +10,30 @@
     <canvas id="snakeboard" width="400" height="400"></canvas>
   </body>
   </html>
+  <script>
+    const board_border = 'black';
+    const board_background = "lightgreen";
+    const snake_col = 'darkgreen';
+    const snake_border = 'darkyellow';
+    
+    let snake = [
+      {x: 200, y: 200},
+      {x: 190, y: 200},
+      {x: 180, y: 200},
+      {x: 170, y: 200},
+      {x: 160, y: 200}
+    ]
+
+    let score = 0;
+    let changing_direction = false;
+    let food_x;
+    let food_y;
+    let dx = 10;
+    let dy = 0;
+    
+    const snakeboard = document.getElementById("snakeboard");
+    const snakeboard_ctx = snakeboard.getContext("2d");
+    main();
+    gen_food();
+    document.addEventListener("keydown", change_direction);
+    </script>
