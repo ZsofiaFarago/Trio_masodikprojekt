@@ -1,5 +1,5 @@
 <?php session_start(); ?>
-<?php require_once 'protected/services/car_rent/config.php'; ?>
+<?php require_once 'protected/services/car_rent/cr_config.php'; ?>
 <?php require_once USER_MANAGER; ?>
 
 <!DOCTYPE HTML>
