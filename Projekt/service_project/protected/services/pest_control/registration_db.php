@@ -1,7 +1,7 @@
 <?php
     require_once 'database.php';
 
-    if(array_key_exists('submit', $_POST)){
+    if(array_key_exists('registration', $_POST)){
         $firstName = $_POST['firstName'];
         $lastName = $_POST['lastName'];
         $email = $_POST['email'];

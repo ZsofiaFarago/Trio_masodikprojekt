@@ -11,7 +11,7 @@
     	<p class="contact"><label for="email">Email</label></p>
     	<input id="email" name="email" placeholder="example@email.com" type="email">
     		
-    	<p class="contact"><label for="phone">Mobile phone</label></p>
+    	<p class="contact"><label for="phone">Telefonszám</label></p>
        	<input id="phone" name="phone" placeholder="06 90 999 9999" type="text">
 
         <p class="contact"><label for="password">Adja meg a jelszavát</label></p>
@@ -38,6 +38,6 @@
     	<p class="contact"><label for="door">Ajtó</label></p>
     	<input id="door" name="door" placeholder="3" type="text"><br />
 
-        <input class="buttom" name="submit" id="submit" value="Regisztráció" type="submit">	 
+        <input class="buttom" name="registration" id="submit" value="Regisztráció" type="submit">	 
    </form> 
 </div>
