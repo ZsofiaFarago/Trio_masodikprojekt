@@ -39,7 +39,7 @@
       <div class="col-lg-6 col-md-6 col-12">
         <h2 class="display-4">BMI calculator</h2>
         <p class="py-3">Use this calculator to check your body mass index (BMI) and find out if you're a healthy weight. Or you can use it to check your child's BMI.</p>
-        <a href="#" class="btn btn-success"> To check it </a>
+        <a href="index.php?S=training&A=bmi" class="btn btn-success"> To check it </a>
       </div>
     </div>
   </div>
