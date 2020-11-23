@@ -125,6 +125,7 @@ h1, h2, p { color: yellow; }
 	margin: 0 auto;
 	padding-left: 50px;
 	padding-top: 20px;
+	margin-top: 20px;
 }
 
 .form p.contact {
@@ -139,7 +140,7 @@ h1, h2, p { color: yellow; }
 	font-size: 12px;
 }
 
-.form input, textarea {
+.form input, select {
 	background-color: black;
 	color: yellow;
 	width: 400px;
@@ -151,7 +152,11 @@ h1, h2, p { color: yellow; }
 	margin-top: -10px;
 }
 
-.form input:focus, textarea:focus {
+.form select {
+	width: 200px;
+}
+
+.form input:focus, select:focus {
 	background-color: rgba(255, 255, 255, 1);
 	border: 1px dashed red;
 	color: black;
