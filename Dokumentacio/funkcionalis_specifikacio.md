@@ -52,9 +52,11 @@ Esetleg szolgaltasoknal arak osszehasonlitasa miatt amennyiben azt a szolgaltato
 A projekt weboldala a jogszabályok szerint fog elkészülni, szerzői joga a készítőket illeti, állami pályázatokra nem jogosult, a weboldal a természetes szabvány szerint íródik, HTML, PHP kódban, fotók számára PNG-t használ, stíluslapja CSS.
 
 ## 10. Képernyőtervek
-![A főoldal képernyőterve](Dokumentacio_kepek/fooldal.png)
-Az egyes kategóriákban rövid leírással, képpel érhetőek el az aloldalakra vezető linkek:
-![Az egyik kategória képernyőterve](Dokumentacio_kepek/kategoria.png)
+A főoldal a portálról elérhető aloldalakat 3 nagy kategóriába rendezi: Információ, Szolgáltatások, illetve Szórakozás, szabadidő. Ennek alapértelmezett, kék színű stílusa, saját logója és címe van, minden menüpontnak kötött az elrendezése. 
+![A főoldal képernyőterve](Dokumentacio_kepek/fooldal.png)  
+Az egyes kategóriákban rövid leírással, képpel érhetőek el az aloldalakra vezető linkek. A Tovább gombra kattintva eljutunk a kiválasztott aloldalra.
+![Az egyik kategória képernyőterve](Dokumentacio_kepek/kategoria.png)  
+Az aloldalak stílusa a portálétól és egymástól teljesen független, a fejlesztők maguk dönthetnek róla. Nemcsak a színekről, hanem a menü, a tartalom elrendezéséről is. Egyszerű navigációs szabályok betartása mellett mindenki szabadon elkészítheti saját oldalát. A képernyőterv szürke színe és vázlatossága is azt fejezi ki, hogy ennek kinézete teljesen egyéni, egyáltalán nem kötött.
 ![Az egyik aloldal képernyőterve](Dokumentacio_kepek/aloldal.png)
 
 ## 11. Forgatokonyvek
