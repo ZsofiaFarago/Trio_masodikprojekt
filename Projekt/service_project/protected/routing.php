@@ -10,6 +10,7 @@
 		case 'pest_control': require_once PROTECTED_DIR.'services/pest_control/start.php'; break;
 		case 'freetime': require_once PROTECTED_DIR.'services/freetime/Snake.php'; break;
 		case 'training': require_once PROTECTED_DIR.'services/training/start.php'; break;
+		case 'car_rent': require_once PROTECTED_DIR.'services/car_rent/start.php'; break;
 		default: require_once PROTECTED_DIR.'error/404.php'; break;
 	}
 ?>
