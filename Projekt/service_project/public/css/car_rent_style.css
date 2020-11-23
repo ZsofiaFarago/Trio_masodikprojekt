@@ -1,0 +1,194 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+html,body {
+	background-color: lightblue;
+}
+
+/* Fejléc */
+#header {
+	background-color: grey;
+	padding: 50px 30px;
+	vertical-align: center;
+}
+
+#title {
+	color: white;
+	font-family: sans-serif;
+	font-size: 32px;
+	font-weight: 900;
+}
+
+#logo {
+	height: 80px;
+	float: left;
+	margin-right: 10px;
+}
+
+h1, h2, p { color: white; }
+
+/* Nav */
+#nav {
+	background-color: grey;
+	padding: 20px 0px 20px 0px;
+	border-top: 2px;
+	border-top-color: black;
+	border-top-style: solid;
+	border-bottom: 2px;
+	border-bottom-color: black;
+	border-bottom-style: solid;
+}
+
+.menupont {
+	text-align: center;
+	padding: 15px;
+	text-decoration: none;
+	font-weight: bold;
+	color: lightgrey;
+	position: relative;
+	left: 180px;
+}
+
+.menupont:hover {
+	background-color: yellow;
+	color: black;
+	border-radius: 10px;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+	-webkit-box-shadow: 0px 0px 40px 0px rgba(255, 255, 0, 0.70);
+	-moz-box-shadow: 0px 0px 40px 0px rgba(255, 255, 0, 0.70);
+	transition: all 0.7s ease 0s;
+}
+
+/* Tartalom */
+.main h1 {
+	padding-bottom: 15px;
+}
+
+.main {
+	margin: 0px 180px;
+	padding: 15px;
+	height: 100%;
+	background-color: darkgrey;
+}
+
+.info {
+	overflow: auto;
+	padding-bottom: 15px;
+}
+
+.index {
+	float: left;
+	padding-right: 15px;
+}
+
+/* Táblázat */
+.prices {
+	margin-top: 20px;
+	margin-bottom: 40px;
+	margin-left: auto;
+	margin-right: auto;
+    border-collapse: collapse;
+    font-family: sans-serif;
+    color: darkgrey;
+    min-width: 300px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.prices thead tr {
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+    text-align: left;
+}
+
+.prices th, .prices td {
+    padding: 12px 15px;
+}
+
+.prices tbody tr, .prices tfoot tr {
+    border-bottom: 1px solid yellow;
+}
+
+.prices tfoot tr {
+    border-top: 5px double yellow;
+    font-weight: bold;
+}
+
+/* Űrlap */
+
+.form {
+	background: darkgrey;
+	width: 470px;
+	margin: 0 auto;
+	padding-left: 50px;
+	padding-top: 20px;
+}
+
+.form p.contact {
+	font-size: 12px;
+	margin: 0px 0px 10px 0;
+	line-height: 14px;
+}
+
+.form label {
+	color: black;
+	font-weight:bold;
+	font-size: 12px;
+}
+
+.form input, textarea {
+	background-color: black;
+	color: yellow;
+	width: 400px;
+	border: 1px solid grey;
+	padding: 7px;
+	font-size: 14px;
+	-webkit-border-radius: 5px;
+	margin-bottom: 15px;
+	margin-top: -10px;
+}
+
+.form input:focus, textarea:focus {
+	background-color: rgba(255, 255, 255, 1);
+	border: 1px dashed red;
+	color: black;
+}
+
+.form input.buttom {
+	background: black;
+	display: inline-block;
+	padding: 5px 20px 6px;
+	width: 150px;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	line-height: 1;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 0 1px 3px black;
+	-webkit-box-shadow: 0 1px 3px black;
+	box-shadow: 0 1px 3px black;
+	text-shadow: 0 -1px 1px red;
+	border: 1px solid white;
+	position: relative;
+	cursor: pointer;
+	font-size: 14px;
+}
+
+/* Footer */
+#footer {
+	background-color: darkgrey;
+	color: black;
+	width: 100%;
+	padding: 40px 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	text-align: center;
+	border-top: 10px;
+	border-top-color: black;
+	border-top-style: groove;
+}
