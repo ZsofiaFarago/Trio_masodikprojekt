@@ -5,7 +5,10 @@
 		case 'home': require_once CR_PROTECTED_DIR.'normal/main.php'; break;
 		case 'categories': require_once CR_PROTECTED_DIR.'normal//categories.php'; break;
 		case 'info': require_once CR_PROTECTED_DIR.'normal/info.php'; break;
-		case 'registration': require_once CR_PROTECTED_DIR.'normal//registration.php'; break;
+		case 'registration': require_once CR_PROTECTED_DIR.'user/registration.php'; break;
+		case 'login': require_once CR_PROTECTED_DIR.'user/login.php'; break;
+		case 'logout': IsUserLoggedIn() ? UserLogout() : header('index.php?A=home'); break;
+		case 'admin': IsUserAdmin() ? require_once CR_PROTECTED_DIR.'admin/admin.php' : header('index.php?A=home'); break; 
 		default: require_once CR_PROTECTED_DIR.'error/404.php'; break;
 	}
 ?>

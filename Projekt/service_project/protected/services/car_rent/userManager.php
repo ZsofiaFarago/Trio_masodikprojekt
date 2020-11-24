@@ -12,14 +12,14 @@ function IsUserAdmin(){
 function UserLogout() {
 	session_unset();
 	session_destroy();
-	header('Location: index.php');
+	header('Location: index.php?S=car_rent');
 }
 
 function UserLogin($email, $password) {
 	$query = "SELECT id, fname, lname, email, permission FROM users WHERE email = :email AND password = :password";
 	$params = [
 		':email' => $email,
-		':password' => sha1($password)
+		':password' => $password
 	]; 
 
 	require_once DATABASE_CONTROLLER;
@@ -30,7 +30,7 @@ function UserLogin($email, $password) {
 		$_SESSION['lname'] = $record['lname'];
 		$_SESSION['email'] = $record['email'];
 		$_SESSION['permission'] = $record['permission'];
-		header('Location: index.php');
+		header('Location: index.php?S=car_rent&A=home&success=1');
 	}
 	return false;
 }
@@ -47,11 +47,11 @@ function UserRegister($email, $password, $fname, $lname) {
 			':first_name' => $fname,
 			':last_name' => $lname,
 			':email' => $email,
-			':password' => sha1($password)
+			':password' => $password
 		];
 
 		if(executeDML($query, $params)) 
-			header('Location: index.php?P=login');
+			header('Location: index.php?S=car_rent&A=login');
 	} 
 	return false;
 }
