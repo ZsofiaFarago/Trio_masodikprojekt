@@ -9,6 +9,12 @@ function IsUserAdmin(){
 	}
 }
 
+function IsUserSeller(){
+	if(IsUserLoggedIn() && isset($_SESSION['permission'])){
+			return $_SESSION['permission'] == 1;
+		}
+}
+
 function UserLogout() {
 	session_unset();
 	session_destroy();

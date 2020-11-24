@@ -35,7 +35,10 @@
 					<a class="btn btn-primary" style="font-size: 24px" id="logout" href="index.php?S=car_rent&A=logout">Kijelentkezés</a>
 				<?php endif; ?>
 
-				<?php if(IsUserAdmin()) : ?><a class="btn btn-primary" style="font-size: 24px" id="logout" href="index.php?S=car_rent&A=admin">Admin menü</a>
+				<?php if(IsUserAdmin()) : ?><a class="btn btn-primary" style="font-size: 24px" id="admin" href="index.php?S=car_rent&A=admin">Admin menü</a>
+				<?php endif; ?>
+
+				<?php if(IsUserSeller()) : ?><a class="btn btn-primary" style="font-size: 24px" id="seller" href="index.php?S=car_rent&A=seller">Eladó menü</a>
 				<?php endif; ?>
 			</center>
 			</div>
