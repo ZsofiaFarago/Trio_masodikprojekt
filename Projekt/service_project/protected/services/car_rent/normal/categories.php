@@ -52,12 +52,18 @@
 						</tr>
 						<hr>
 						<tr>
-							<td colspan="2"><center><button <?php 
-																if($i['available'] == 0) :
- 															?>
+							<td colspan="2"><center>
+													<?php if(isset($_SESSION['permission']) && $_SESSION['permission'] > 0) : ?>
+								<button
+														<?php if($i['available'] == 0) : ?>
  															disabled
  															<?php endif; ?>
- 													style="font-size: 20px; padding: 6px; margin-bottom: 6px">Foglalás</button></center></td>
+ 													style="font-size: 20px; padding: 6px; margin-bottom: 6px">Foglalás
+ 													</button>
+ 													<?php else: ?>
+ 														<p>Jelentkezz be a foglaláshoz!</p>
+ 													<?php endif; ?>
+ 											</center></td>
 						</tr>
 					</table>
 				</div>
