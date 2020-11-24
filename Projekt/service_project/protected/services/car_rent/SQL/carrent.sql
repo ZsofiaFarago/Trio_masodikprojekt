@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Gép: 127.0.0.1
--- Létrehozás ideje: 2020. Nov 24. 00:08
+-- Létrehozás ideje: 2020. Nov 24. 01:15
 -- Kiszolgáló verziója: 10.4.11-MariaDB
 -- PHP verzió: 7.4.4
 
@@ -29,10 +29,22 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `cars` (
   `id` int(64) NOT NULL,
+  `category` varchar(200) NOT NULL,
   `name` varchar(200) NOT NULL,
   `price` int(200) NOT NULL,
-  `available` tinyint(1) NOT NULL
+  `available` tinyint(1) NOT NULL,
+  `img` varchar(200) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- A tábla adatainak kiíratása `cars`
+--
+
+INSERT INTO `cars` (`id`, `category`, `name`, `price`, `available`, `img`) VALUES
+(1, 'personal', 'Suzuki Swift', 5000, 1, 'swift'),
+(2, 'commercial', 'Fiat Punto Van', 7500, 0, 'puntovan'),
+(3, 'bike', 'Piaggio Liberty 50', 3000, 1, 'liberty50'),
+(4, 'personal', 'Opel Astra F', 6500, 0, 'astraf');
 
 -- --------------------------------------------------------
 
@@ -73,7 +85,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT a táblához `cars`
 --
 ALTER TABLE `cars`
-  MODIFY `id` int(64) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(64) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT a táblához `users`

@@ -4,6 +4,13 @@
 }
 /* Gomb */
 
+.btn1 { 
+	font-size: 25px; 
+	padding: 6px; 
+	background-color: white; 
+	color: blue;
+}
+
 .button {
   background-color: #4CAF50;
   border: none;
