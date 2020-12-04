@@ -1,7 +1,7 @@
 <h1>Regisztráció</h1>
-
+<?php require_once 'registration_db.php' ?>
 <div  class="form">
-    <form id="contactform">
+    <form id="contactform" method="POST">
     	<p class="contact"><label for="lastName">Vezetéknév</label></p>
     	<input id="name" name="lastName" placeholder="Kovács" type="text">
     			
@@ -15,9 +15,6 @@
        	<input id="phone" name="phone" placeholder="06 90 999 9999" type="text">
 
         <p class="contact"><label for="password">Adja meg a jelszavát</label></p>
-    	<input type="password" class="password" name="password">
-
-        <p class="contact"><label for="repassword">Erősítse meg a jelszavát</label></p>
     	<input type="password" class="password" name="password">
 
     	<p class="contact"><label for="city">Város</label></p>
