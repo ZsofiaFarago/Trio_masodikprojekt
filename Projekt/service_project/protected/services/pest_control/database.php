@@ -19,4 +19,26 @@ function getList($queryString, $queryParams = []){
     $connection = null;
     return $result;
 }
+
+    function getField($queryString, $queryParams = []) {
+        $connection = getConnection();  
+        $statement = $connection->prepare($queryString);
+        $success = $statement->execute($queryParams);
+        $result = [];
+        if($success){
+            $result = $statement->fetch()[0];
+        }
+        $statement->closeCursor();
+        $connection = null;
+        return $result;
+    }
+
+    function executeDML($queryString, $queryParams = []) {
+        $connection = getConnection();
+        $statement = $connection->prepare($queryString);
+        $success = $statement->execute($queryParams);
+        $statement->closeCursor();
+        $connection = null;
+        return $success;
+    }
 ?>
