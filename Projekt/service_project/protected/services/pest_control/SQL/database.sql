@@ -53,6 +53,7 @@ CREATE TABLE cust_order (
   cust_id INT NOT NULL,
   pest_id INT NOT NULL,
   order_date DATETIME NOT NULL DEFAULT NOW(),
+  work_date DATETIME,
   address_id INT NOT NULL,
   CONSTRAINT pk_cust_order PRIMARY KEY (order_code),
   CONSTRAINT fk_cust_order_customer_id FOREIGN KEY (cust_id) REFERENCES customer(cust_code),

@@ -45,10 +45,10 @@
         ];
 
 
-        $addressId = getField("SELECT id FROM address WHERE street_name = :street_name AND street_number = :street_number AND floor = :floor AND door = :door", [':street_name'  =>  $street, ':street_number' =>  $streetNumber, ':floor'    =>  $floor, ':door' =>  $door]);
+        $addressId = getField("SELECT id FROM address WHERE street_name = :street_name AND street_number = :street_number AND floor = :floor AND door = :door AND city_id = :city_id", $addressParams);
         if($addressId == null) {
             executeDML($addressInsert, $addressParams);
-            $addressId = getField("SELECT id FROM address WHERE street_name = :street_name AND street_number = :street_number AND floor = :floor AND door = :door", $addressParams);
+            $addressId = getField("SELECT id FROM address WHERE street_name = :street_name AND street_number = :street_number AND floor = :floor AND door = :door AND city_id = :city_id", $addressParams);
         }
 
         $customerInsert = "INSERT INTO customer(first_name, last_name, email, phone, password, address_id) VALUES(:first_name, :last_name, :email, :phone, :password, :address_id)";
