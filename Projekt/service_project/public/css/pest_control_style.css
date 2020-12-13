@@ -184,6 +184,11 @@ h1, h2, p { color: yellow; }
 	font-size: 14px;
 }
 
+.formMessage {
+	color: red;
+	margin-top: 10px;
+}
+
 /* Footer */
 #footer {
 	background-color: black;
