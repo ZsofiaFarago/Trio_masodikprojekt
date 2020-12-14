@@ -1,0 +1,8 @@
+# Tesztterv
+|Sorszám|Tesztelő neve, Neptun kódja|Funkció|Tesztelés módja, leírása|Eredmény|
+|-------|---------------------------|-------|------------------------|--------|
+|1.|Faragó Zsófia (B118Z5)|Kártevőirtás: árajánlat|Az adatbázisban lekérdezések segítségével ellenőriztem, valóban minden adatbázisban szereplő információ elérhető-e a főoldalon lévő árajánlatban.|Sikeres: minden adat megjelenik a főoldalon, amely a vásárlókat az árakról tájékoztatja.|
+|2.|Faragó Zsófia (B118Z5)|Kártevőirtás: kártevők adatainak megjelenítése|Az adatbázisban lekérdezések segítségével ellrnőriztem, mennyire felelnek meg az adatbázisban tárolt adatok a kártevőkről, mint ami a Kártevők menüpontban látható.|Sikeres.|
+|3.|Faragó Zsófia (B118Z5)|Kártevőirtás: regisztráció|Regisztrációs űrlap kitöltése először minden szükséges adattal, utána hiányzó adatokkal, majd a visszajelzés és az adatbázisban létrejött rekord ellenőrzése|Sikeres: A felület figyelmezteti a felhasználót, ha nem adott meg minden adatot, illetve tájékoztatja, ha sikeres volt, és az adatbázisba bekerülnek a megfelelő rekordok|
+|4.|Faragó Zsófia (B118Z5)|Kártevőirtás: megrendelés funkció|A regisztrált email cím és jelszó megadása után az űrlap kitöltése. Először helyesen töltöttem ki, másodszor rossz jelszót, harmadszor hiányos adatokat adtam meg.|Sikeres: rossz jelszó és hiányos adatok esetén a megfelelő üzenetet adta a felület, heles kitöltés esetén bekerült az adatbázisba a rekord. Hiányosság: nem kap megfelelő visszajelzést a felhasználó a helyes megrendelésről.|
+|5.|Faragó Zsófia (B118Z5)|Kártevőirtás: reszponzív stíluslap|Megjelenítettem a weboldalt különböző, gyakran használt ablakméretekben.|Minden felbontás esetén a tartalom igazodik a képernyő szélességéhez.|
