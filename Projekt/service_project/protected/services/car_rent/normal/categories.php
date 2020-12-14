@@ -54,12 +54,12 @@
 						<tr>
 							<td colspan="2"><center>
 													<?php if(isset($_SESSION['permission']) && $_SESSION['permission'] >= 0) : ?>
-								<button
+								<a href="index.php?S=car_rent&A=home&rented=<?=$i['id']?>"><button
 														<?php if($i['available'] == 0) : ?>
  															disabled
  															<?php endif; ?>
  													style="font-size: 20px; padding: 6px; margin-bottom: 6px">Foglalás
- 													</button>
+ 													</button></a>
  													<?php else: ?>
  														<p>Jelentkezz be a foglaláshoz!</p>
  													<?php endif; ?>
