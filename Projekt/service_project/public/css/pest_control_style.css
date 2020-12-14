@@ -203,3 +203,64 @@ h1, h2, p { color: yellow; }
 	border-top-color: yellow;
 	border-top-style: groove;
 }
+
+/* Reszponzivitás */
+
+@media screen and (max-width: 1080px) {
+	.main {
+		margin: 0px 90px;
+	}
+}
+
+@media screen and (max-width: 920px) {
+	.info {
+		overflow: none;
+		display: block;
+  		margin-left: auto;
+  		margin-right: auto;
+	}
+
+	.index {
+		float: none;
+		display: block;
+  		margin-left: auto;
+  		margin-right: auto;
+	}
+
+	.menupont {
+		padding: 5px;
+		font-size: 10pt;
+	}
+}
+
+@media screen and (max-width: 740px) {
+	.form, .form input, .form select {
+		width: 80%;
+	}
+}
+
+@media screen and (max-width: 660px) {
+	.menupont {
+		left: 10px;
+	}
+}
+
+@media screen and (max-width: 510px) {
+	.main {
+		margin: 0px 45px;
+	}
+
+	.index {
+  		width: 70%;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.main {
+		margin: 0px;
+	}
+
+	.prices {
+		min-width: 250px;
+	}
+}
