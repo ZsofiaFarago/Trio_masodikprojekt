@@ -53,7 +53,7 @@
 						<hr>
 						<tr>
 							<td colspan="2"><center>
-													<?php if(isset($_SESSION['permission']) && $_SESSION['permission'] > 0) : ?>
+													<?php if(isset($_SESSION['permission']) && $_SESSION['permission'] >= 0) : ?>
 								<button
 														<?php if($i['available'] == 0) : ?>
  															disabled
