@@ -29,3 +29,11 @@
 |26.|Perge Zsolt (VLV87D)|Snake: |||
 |27.|Perge Zsolt (VLV87D)|Snake: |||
 |28.|Perge Zsolt (VLV87D)|Snake: A játék probléma nélküliségének tesztelése.|Játszottam pár kört közben próbáltam a játék minden lehetséges módját tesztelni.|Hiba nélkül futott a program.|
+|29.|Dohanyos Patrik (OVR1Q7)|Sport: Routing| Az oldalra feltoltott osszes informacio megjelenik-e.| Sikeres |
+|30.|Dohanyos Patrik (OVR1Q7)|Sport: Oldal reszponzivitasa| Az oldal osszes munpontja, tartalma megjelenitese barmilyen felbontasu feluleten|Az oldal tartalma alkalmazodik a kepernyo meretehez|
+|31.|Dohanyos Patrik (OVR1Q7)|Sport: Navigacio | Az navbarban megjeleno almenuk kozott sikeres navigalas | Sikeres
+|32.|Dohanyos Patrik (OVR1Q7)|Sport: BMI calculator| BMI kiszamolasahoz hasznalt javascript mukodese| Sikeres |
+|33.|Dohanyos Patrik (OVR1Q7)|Sport: Hibak az oldalon | A bongeszo console-jat hasznalva az oldalon levo hibak kilogolasa | Csak nem hasznalt (alap)boostrap elemek voltak hibasak. Siker?
+|34.|Dohanyos Patrik (OVR1Q7)|Sport: Network| Az oldalon levo dolgok megjelenesi ideje stb | Jo eredmenyek, sikeres |
+|35.|Dohanyos Patrik (OVR1Q7)|Sport: Oldalrol kimutato linkek | Az oldalrol kimtato linkek mukodnek-e es jo helyre iranyitanak at?| Igen, sikeres.
+|36.|Dohanyos Patrik (OVR1Q7)|Sport: Contact Us| A Contact Us form kitoltese, informaciok megjelenese az adatbazisban.| Sikertelen 
