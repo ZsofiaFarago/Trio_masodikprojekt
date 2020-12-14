@@ -7,12 +7,13 @@
 			'available' => $_POST['available']
 		];
 
-			$query = "INSERT INTO cars (category, name, price, available) VALUES (:category, :name, :price, :available)";
+			$query = "INSERT INTO cars (category, name, price, available, img) VALUES (:category, :name, :price, :available, :img)";
 			$params = [
 				':category' => $p_data['category'],
 				':name' => $p_data['name'],
 				':price' => $p_data['price'],
-				':available' => $p_data['available']
+				':available' => $p_data['available'],
+				':img' => 'car'
 			];
 
 			require_once DATABASE_CONTROLLER;
