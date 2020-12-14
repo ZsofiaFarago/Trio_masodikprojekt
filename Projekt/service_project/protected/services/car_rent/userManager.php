@@ -48,12 +48,13 @@ function UserRegister($email, $password, $fname, $lname) {
 	require_once DATABASE_CONTROLLER;
 	$record = getRecord($query, $params);
 	if(empty($record)) {
-		$query = "INSERT INTO users (fname, lname, email, password) VALUES (:first_name, :last_name, :email, :password)";
+		$query = "INSERT INTO users (fname, lname, email, password, permission) VALUES (:first_name, :last_name, :email, :password, :permission)";
 		$params = [
 			':first_name' => $fname,
 			':last_name' => $lname,
 			':email' => $email,
-			':password' => $password
+			':password' => $password,
+			':permission' => 0
 		];
 
 		if(executeDML($query, $params)) 
