@@ -1,4 +1,4 @@
-# Tesztterv
+# Tesztjegyzőkönyv
 |Sorszám|Tesztelő neve, Neptun kódja|Funkció|Tesztelés módja, leírása|Eredmény|
 |-------|---------------------------|-------|------------------------|--------|
 |1.|Faragó Zsófia (B118Z5)|Kártevőirtás: adatbázis-kapcsolat|Az adatbázisszerverhez való kapcsolódás tesztelése, próba írási és olvasási műveletek végrehajtása MySQL Workbench segítségével.|Sikeres kapcsolódás a távoli szerverhez, sikeres műveletek.|
